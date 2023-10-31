@@ -3,17 +3,20 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
   
   <title> Elora Ainoa Portfolio | Web Developer</title>
 
-  <link rel="stylesheet" href="css\style.css" />
+  
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css\style.css" />
+
+
 
 
 
@@ -25,17 +28,19 @@
 
   <!-- NAVIGATION BAR -->
 
-  <header class="header-modifications">
+  <header class="header-modifications" id="homepage">
     
     <!-- navigation bar -->
     <div  class="navigation-bar-flexbox">
 
        <nav class="navigation-bar-list">
+
       
-        <a class="navigation-bar-link" href="https://tupuart.com/" >About Me</a>
-        <a class="navigation-bar-link" href="https://tupuart.com/" >Work</a>
-        <a class="navigation-bar-link" href="https://tupuart.com/" >Contact Me</a>
-        <a class="navigation-bar-link" href="https://tupuart.com/" >CV</a>
+      
+        <a href=#about class="navigation-bar-link"> About Me </a>
+        <a href="#work" class="navigation-bar-link"> Work </a>
+        <a href="#contact" class="navigation-bar-link"> Contact Me </a>
+        <a href="https://tupuart.wixsite.com/mysite-1" class="navigation-bar-link"> CV </a>
 
         </nav>
 
@@ -99,7 +104,7 @@
 
       <section class="about-me-text">
 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores earum nemo quidem, voluptatum rem dolorem quo quasi id eius commodi neque asperiores libero soluta iste consequatur cum odit? Fugiat?
+        Online i usually go by TuPu and I'm a retro loving illustrator and animator from London. I absolutely adore "doodling" and is something i've done for as far back as I can remember. My art takes a lot of influence from the things I grew up with such as anime and Golden age animation. Over the years all these elements have all fused together resulting in m own little style.
 
       </section>
   
@@ -112,32 +117,10 @@
     
 
 
+      <!-- portfolio -->
+      <div class="page-section" id="work">
 
-
-
-
-    <!-- portfolio container -->
-    
-    <!-- <section class="work" id="work">
-      <h2>Work</h2>
-    </section>
-
-  </section>
-
-
-  <section class="about-me-text">
-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores earum nemo quidem, voluptatum rem dolorem quo quasi id eius commodi neque asperiores libero soluta iste consequatur cum odit? Fugiat?
-
-  </section> -->
-
-
-
-
-
-      <div class="page-section">
-
-        <section class="about-me" id="about">
+        <section class="about-me">
 
           <h2>Work</h2>
 
@@ -146,55 +129,59 @@
 
         <section class="about-me-text">
 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis dolores earum nemo quidem, voluptatum rem dolorem quo quasi id eius commodi neque asperiores libero soluta iste consequatur cum odit? Fugiat?
+          Here are a collection of introductionary projects that I have worked on whist developing my JS, HTML and CSS skills
 
         </section>
 
 
-
-
-
-
       </div>
+      
 
+
+      <!-- gallery of work -->
       <div class="main">
+
         <div class="main-flex">
-          MAIN PROJECT 
+          <img src="./images/03.jpg" class="image-main">
         </div>
 
       </div>
-
-
 
 
       <div class="flex-container-01">
 
- 
-  
+        <!-- main project -->
         <div class="flex-container-02">
+
   
         <div class="flexbox">
-          PROJECT 1
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-1.jpg" class="images"></a>
+      
         </div>
   
+        <!-- secondary projects -->
         <div class="flexbox">
-          PROJECT 2
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-2.jpg" class="images"></a>
         </div>
   
-        <div class="flexbox">
-          PROJECT 3
-        </div>
-  
-        <div class="flexbox">
-          PROJECT 4
-        </div>
-  
-        <div class="flexbox">
-          PROJECT 5
-        </div>
 
         <div class="flexbox">
-          PROJECT 6
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-3.jpg" class="images"></a>
+        </div>
+  
+
+        <div class="flexbox">
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-4.jpg" class="images"></a>
+        </div>
+  
+
+        <div class="flexbox">
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-1.jpg" class="images"></a>
+        </div>
+
+
+        <div class="flexbox">
+          <a href="https://tupuart.com/" target="_blank"><img src="./images/02-portfolio-2.jpg" class="images"></a>
         </div>
   
 
@@ -205,8 +192,7 @@
 
 
 
-      <!-- CONTACT --> 
-
+      <!-- contact --> 
       <footer class="page-section contact" id="contact">
    
    
@@ -219,6 +205,10 @@
           <div class="data" >tupuart@gmail.com</div>
           <div class="data" >www.tupuart.com</div>
         </div>
+
+        <!-- <div class="logo">
+          <img src="./images/01.jpg">
+        </div> -->
     
     
     
