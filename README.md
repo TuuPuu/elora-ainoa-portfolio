@@ -26,7 +26,7 @@ Application has been deployed successfully. Please access site at:
 https://tuupuu.github.io/elora-ainoa-portfolio/ 
 
 
-Stages in code refactor can be found via GitHub:
+Stages in code development can be found via GitHub:
 https://github.com/TuuPuu/elora-ainoa-portfolio
 
 
