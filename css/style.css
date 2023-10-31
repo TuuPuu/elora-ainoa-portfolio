@@ -1,17 +1,25 @@
 
 /* GENERAL PAGE STYLING */
 
+* {
+  box-sizing: border-box;
+}
+
 .page-modifications{
   margin: 0;
   padding: 0;
+  padding-bottom: 300px;
   font-family: dosis, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
 
-* {
-  box-sizing: border-box;
+.header-modifications{
+  margin-bottom: 0px;
+  height: 0px;
 }
+
+
 
 
 
@@ -21,6 +29,7 @@
   display: flex;
   flex-direction: row;
   height: 40px;
+  margin-bottom: 0px;
 
 }
 
@@ -65,16 +74,180 @@ color: rgb(88, 87, 87);
 
 
 
+/* HERO SECTION */
+
+.hero-banner{
+  margin-bottom: 0px;
+}
+
+.hero-image{
+  margin-top: 40px;
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  margin-bottom: 0px;
+ 
+  
+}
+
+
+
+.subtitle-heading{
+  background-color: rgb(103, 156, 156);
+  width: 200px;
+  height: 25px;
+  position: relative;
+  top: -40px;
+  margin-left: 510px;
+  
+  font-weight: 700;
+  font-size: small;
+  text-align: left;
+  color: rgb(88, 87, 87);
+  padding-left: 9px;
+  
+  }
+
+
+  /* ABOUT ME */
+
+  .page-section{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-color: rgb(88, 87, 87);
+
+  }
+
+  .about-me{
+    padding-right: 10px;
+    width: 200px;
+    text-align: end;
+    border-right: 2px solid rgb(103, 156, 156);
+    height: 100px;
+ 
+    
+    
+
+  }
+
+  .about-me-text{
+    flex: 1;
+    margin-left: 40px;
+    
+  }
+
+
+
+  .work{
+    padding-right: 10px;
+    width: 201px;
+    text-align: end;
+    border-right: 2px solid rgb(103, 156, 156);
+    height: 100px;
+    margin: 0px;
+
+  
+
+   
+
+  }
 
 
 
 
-/* body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  line-height: 1.5;
-} */
+  .main-flex{
+    display: flex;
+    flex: 1;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(88, 87, 87);
+    margin-left: 20%;
+
+
+    margin-bottom: 0%;
+
+  }
+
+  
+
+  .flex-container-01{
+    margin-top: 0px;
+    margin: 0px;
+    width: 700px;
+    height: 700px;
+    column-gap: 5px;
+    margin-bottom: 0px;
+    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: row;
+    place-self: center;
+    
+
+
+  }
+
+  .flex-container-02{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+
+
+  }
+
+
+  .flexbox{
+    margin-top: 100px;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(103, 156, 156);
+    border: 1px;
+    border-color: rgb(88, 87, 87);
+    border-style: solid;
+    margin: 10px;
+
+  }
+
+
+  .contact-me{
+    margin-top: 0px;
+    padding-right: 10px;
+    width: 200px;
+    text-align: end;
+    height: 100px;
+    border-right: 2px solid rgb(103, 156, 156);
+   
+ 
+  
+  }
+
+  .contact-details{
+    flex: 1;
+    text-align:center;
+    padding-right: 50px;
+    padding-top: 10px;
+
+  }
+
+  .data{
+    margin: 10px;
+    flex: 1;
+    text-align: right;
+
+  }
+
+
+
+
+
+
+
 
 h1,
 h2,
